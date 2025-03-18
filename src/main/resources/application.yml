@@ -14,8 +14,5 @@ server:
 #      ddl-auto: update
 #    show-sql: true
 
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: http://localhost:8080/realms/admin_realm
+jwt:
+  public-key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2gwO36pbmUbgUM4xivvSai7sxyakDtvtp2de5ZjDtNw4qGh+X7rUFhlALmMWLAUFJil31XfRiXQO49VS0Ap8C/mJOezdCE8DsRrD9Qi0B8Zou7wFV/myIi8K/7aCkMhGcHRwThPy1untQuhZM87NkkrwMDRHw1mDMfE8rfXgs/Y0xi6Ax4dkIv8ZkMd/Zji3f/f1oNtpNWHgdFEWKmfxGbXRtMCASMBlJ2c/DDZd0VCkPvAmx64+BOQ6597jXJKmGXbijY49ECqIKRpgaOvIp2C6w9o7goE/7dih5BWZLkrWxdAYYrzpptFWI1a3dC1XLX59Sky/IRz8P54P6lPm8wIDAQAB"
